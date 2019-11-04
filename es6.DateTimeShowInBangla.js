@@ -30,6 +30,7 @@ const DateShowInBangla = (function () {
         return StringNumber.toString();
     }
 
+
     const generateTimeSuffix = function () {
 
         if (date_format == 12) {
@@ -37,21 +38,19 @@ const DateShowInBangla = (function () {
                 TimeSufix = 'PM';
                 hour = (hour - 12);
 
-                if (hour < 10) {
-                    result = "0" + hour;
-                } else if (hour == 12) {
-                    hour = "00";
+                if (hour == 12) {
+                    hour = 0;
                     TimeSufix = 'AM';
                 }
             }
             else if (hour < 12) {
-                result = ((hour < 10) ? "0" + hour : hour);
                 TimeSufix = 'AM';
             } else if (hour == 12) {
                 TimeSufix = 'PM';
             }
         }
     }
+
 
     const convertBn = function (number) {
         generateTimeSuffix();
@@ -86,5 +85,4 @@ const DateShowInBangla = (function () {
     };
 })()
 
-export default   DateShowInBangla ;
- 
+export default DateShowInBangla;

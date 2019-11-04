@@ -37,15 +37,12 @@ const DateShowInBangla = (function () {
                 TimeSufix = 'PM';
                 hour = (hour - 12);
 
-                if (hour < 10) {
-                    result = "0" + hour;
-                } else if (hour == 12) {
-                    hour = "00";
+                if (hour == 12) {
+                    hour = 0;
                     TimeSufix = 'AM';
                 }
             }
             else if (hour < 12) {
-                result = ((hour < 10) ? "0" + hour : hour);
                 TimeSufix = 'AM';
             } else if (hour == 12) {
                 TimeSufix = 'PM';
