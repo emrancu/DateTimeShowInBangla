@@ -1,7 +1,8 @@
 # DateTimeShowInBangla 
 <p>A JavaScript plugin for converting english date time to bangla view</p>
- 
 
+ <p>Check Details Demo <a target="_blank" href="https://codepen.io/emrancu/pen/QegxwN?editors=1010">Here</a></p>
+  
 <div class="highlight highlight-text-html-basic">
 
 
@@ -15,15 +16,19 @@
      onlyDate: true,
   }));
    
+   result : ১১ মে ২০১৯
    #or
    
    document.write(DateShowInBangla.init({
      onlyTime: true,
   }))
   
+  result : ২২:০০:২৩ পূর্বাহ্ণ
   #or
   
   document.write(DateShowInBangla.init())
+  
+  result : ০৪ নভেম্বর ২০১৯ ১০:০০:৫২ পূর্বাহ্ণ
 </pre>
 
   
