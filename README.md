@@ -1,7 +1,8 @@
 # DateTimeShowInBangla 
 <p>A JavaScript plugin for converting english date time to bangla view</p>
- 
 
+ <p>Check Details Demo <a target="_blank" href="https://codepen.io/emrancu/pen/QegxwN?editors=1010">Here</a></p>
+  
 <div class="highlight highlight-text-html-basic">
 
 
