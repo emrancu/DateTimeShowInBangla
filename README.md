@@ -1,5 +1,5 @@
 # DateTimeShowInBangla 
-<p>A JavaScript plugin for converting englidh date time to bangla view</p>
+<p>A JavaScript plugin for converting english date time to bangla view</p>
  
 
 <div class="highlight highlight-text-html-basic">
