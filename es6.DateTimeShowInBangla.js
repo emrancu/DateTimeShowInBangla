@@ -84,17 +84,7 @@ const DateShowInBangla = (function () {
             return convert();
         }
     };
-})();
+})()
 
-// example :
-// document.write(DateShowInBangla.init({
-//     myDate: '05-11-2019',
-//     onlyDate: true,
-// }))
-
-// document.write(DateShowInBangla.init({
-//     onlyTime: true,
-// }))
-
-
-// document.write(DateShowInBangla.init())
+export default   DateShowInBangla ;
+ 
