@@ -15,15 +15,19 @@
      onlyDate: true,
   }));
    
+   result : ১১ মে ২০১৯
    #or
    
    document.write(DateShowInBangla.init({
      onlyTime: true,
   }))
   
+  result : ২২:০০:২৩ পূর্বাহ্ণ
   #or
   
   document.write(DateShowInBangla.init())
+  
+  result : ০৪ নভেম্বর ২০১৯ ১০:০০:৫২ পূর্বাহ্ণ
 </pre>
 
   
